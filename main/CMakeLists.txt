@@ -42,12 +42,12 @@ elseif(CONFIG_BOARD_TYPE_BREAD_COMPACT_ML307)
     set(BOARD_TYPE "bread-compact-ml307")
 elseif(CONFIG_BOARD_TYPE_ESP_BOX_3)
     set(BOARD_TYPE "esp-box-3")
-elseif(CONFIG_BOARD_TYPE_KEVIN_BOX_1)
-    set(BOARD_TYPE "kevin-box-1")
-elseif(CONFIG_BOARD_TYPE_KEVIN_BOX_2)
-    set(BOARD_TYPE "kevin-box-2")
-elseif(CONFIG_BOARD_TYPE_KEVIN_C3)
-    set(BOARD_TYPE "kevin-c3")
+
+
+elseif(CONFIG_BOARD_TYPE_TUDOU)
+    set(BOARD_TYPE "tudou")
+
+
 elseif(CONFIG_BOARD_TYPE_LICHUANG_DEV)
     set(BOARD_TYPE "lichuang-dev")
 elseif(CONFIG_BOARD_TYPE_LICHUANG_C3_DEV)
